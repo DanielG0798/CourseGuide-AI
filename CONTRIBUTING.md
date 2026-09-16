@@ -9,10 +9,6 @@
 ## Commits
 
 - Write clear commit messages: `Add course policy loader` not `update`.
-- End commit messages with:
-  ```
-  Co-Authored-By: Claude Code <noreply@anthropic.com>
-  ```
 - Both technical and business teammates should commit code, docs, tests, or reports.
 
 ## Before committing
