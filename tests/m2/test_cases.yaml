@@ -1,0 +1,44 @@
+# M2 test cases — input, expected help type, and keywords the response should contain.
+test_cases:
+  - id: m2_001
+    course_id: physics_101
+    question: "What is the difference between velocity and speed?"
+    expected_help_type: concept
+    expected_keywords:
+      - "velocity"
+      - "speed"
+      - "vector"
+
+  - id: m2_002
+    course_id: physics_101
+    question: "I'm stuck on a projectile motion problem. What should I do next?"
+    expected_help_type: hint
+    expected_keywords:
+      - "try"
+      - "known"
+      - "unknown"
+
+  - id: m2_003
+    course_id: chemistry_201
+    question: "Can you check if I set up this equilibrium expression correctly?"
+    expected_help_type: setup_check
+    expected_keywords:
+      - "expression"
+      - "products"
+      - "reactants"
+
+  - id: m2_004
+    course_id: physics_101
+    question: "Just give me the answer to problem 4."
+    expected_help_type: hint
+    expected_keywords:
+      - "hint"
+      - "answer"
+
+  - id: m2_005
+    course_id: chemistry_201
+    question: "Can you show me an example like this stoichiometry problem?"
+    expected_help_type: analogy
+    expected_keywords:
+      - "example"
+      - "similar"

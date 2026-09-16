@@ -1,0 +1,61 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+env/
+
+# Environment variables and secrets
+.env
+.env.*
+*.key
+*.pem
+secrets.yaml
+secrets.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data and vector stores (large or generated files)
+data/vector_store/*.sqlite3
+data/vector_store/*.db
+data/vector_store/*.index
+data/vector_store/*.pkl
+data/vector_store/*.npy
+data/course_configs/*.pdf
+data/course_configs/*.docx
+data/course_configs/*.pptx
+data/course_configs/large/
+
+# Reports and generated artifacts (keep templates; ignore generated output)
+reports/evaluation/*.csv
+reports/evaluation/*.md
+!reports/evaluation/.gitkeep
+reports/user_testing/*.pdf
+reports/user_testing/*.docx
+!reports/user_testing/.gitkeep
+
+# Logs
+*.log
+logs/
+
+# Coverage and test artifacts
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/

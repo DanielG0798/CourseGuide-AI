@@ -1,0 +1,27 @@
+course_id: chemistry_201
+course_name: General Chemistry II
+description: |
+  Second-semester general chemistry with emphasis on equilibrium,
+  thermodynamics, and electrochemistry.
+
+allowed_help_levels:
+  - concept
+  - hint
+  - next_step
+  - setup_check
+
+forbidden_help_levels:
+  - full_solution
+  - direct_answer
+
+tone: "clear and methodical"
+
+approved_sources:
+  - "OpenStax Chemistry 2e"
+  - "Lab manual"
+
+style_rules:
+  - "Ask the student to state the relevant formula or law first."
+  - "Prompt the student to check units and stoichiometric ratios."
+  - "Never balance an equation or calculate a final concentration for the student."
+  - "If the student is stuck, suggest a similar but simpler problem first."
